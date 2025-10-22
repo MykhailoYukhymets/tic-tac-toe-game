@@ -1,0 +1,40 @@
+# Node modules (величезна папка з бібліотеками)
+node_modules/
+
+# Побудовані файли (сюди збирається готовий проєкт)
+dist/
+build/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Середовище (сюди кладуть секретні ключі)
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Кеш
+.cache/
+.vite/
+.next/
+out/
+coverage/
+
+# IDE/редактори
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тимчасові файли OS або інструментів
+*.tmp
+*.temp
